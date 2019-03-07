@@ -15,54 +15,6 @@ close.addEventListener("click", function () {
 });
 
 
-
-
-  
-// var site = function() {
-//   this.navLi = $('#nav li').children('ul').hide().end();
-//   this.init();
-// };
-
-// site.prototype = {
-  
-//   init : function() {
-//     this.setMenu();
-//   },
-  
-//   // Enables the slidedown menu, and adds support for IE6
-  
-//   setMenu : function() {
-  
-//   $.each(this.navLi, function() {
-//     if ( $(this).children('ul')[0] ) {
-//       $(this)
-//         .append('<span />')
-//         .children('span')
-//           .addClass('open-submenu')
-//     }
-//   });
-  
-//     this.navLi.hover(function() {
-//       // mouseover
-//       $(this).find('> ul').stop(true, true).slideDown('slow', 'easeOutBounce');
-//     }, function() {
-//       // mouseout
-//       $(this).find('> ul').stop(true, true).hide();     
-//     });
-    
-//   }
- 
-// }
-
-
-// new site();
-
-
-
-
-
-
-
 jQuery("document").ready(function($){
  
   var nav = $('.hevader-top');
@@ -71,7 +23,6 @@ jQuery("document").ready(function($){
   var logo = $('.logo');
   var submenu =$('.submenu');
   var list = $('.list-nav');
-// $(window).innerWidth() <= 751
  
   $(window).scroll(function () {
     if (window.scrollY > 200 && $(window).innerWidth() >= 1250) {
@@ -95,8 +46,6 @@ jQuery("document").ready(function($){
 });
 
 
-
-
 $(function() {
   var Accordion = function(el, multiple) {
     this.el = el || {};
@@ -115,12 +64,9 @@ $(function() {
 
     $next.slideToggle();
     $this.parent().toggleClass('open');
-
-    // if (!e.data.multiple) {
-    //   $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
-    // };
   } 
 
   var accordion = new Accordion($('.ul-nav'), false);
 });
+
 

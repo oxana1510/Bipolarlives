@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: "Arial";
+	font-display: swap;
+	src: url(../fonts/ArialMT.woff),
+	url(../fonts/ArialMT.ttf);
+}
+@font-face{
+	font-family: "Helvetica Neue Cyr - Roman";
+	font-display: swap;
+	src: url(../fonts/HelveticaNeueCyr-Roman.woff),
+	url(../fonts/HelveticaNeueCyr-Roman.ttf);
+}
+@font-face{
+	font-family: "Helvetica Neue Cyr-Thin";
+	font-display: swap;
+	src: url(../fonts/HelveticaNeueCyr-Thin.woff),
+	url(../fonts/HelveticaNeueCyr-Thin.ttf);
+}
+
+@font-face{
+	font-family: "HelveticaNeueCyr-Bold";
+	font-display: swap;
+	src: url(../fonts/HelveticaNeueCyr-Bold.woff),
+	url(../fonts/HelveticaNeueCyr-Bold.ttf);
+}
+$font-title: "Helvetica Neue Cyr-Thin";
+$font-text: "Helvetica Neue Cyr - Roman";
+$font-bold: "HelveticaNeueCyr-Bold";
+$font-menu: "Arial";
